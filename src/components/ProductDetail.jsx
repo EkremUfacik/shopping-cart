@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom";
 import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
 import { useEffect, useState } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import load from "../asset/loading.gif";
