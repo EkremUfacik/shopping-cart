@@ -21,6 +21,7 @@ const Home = () => {
         dispatch(fetchSuccess());
       })
       .catch((err) => console.log(err));
+    // eslint-disable-next-line
   }, []);
 
   return (

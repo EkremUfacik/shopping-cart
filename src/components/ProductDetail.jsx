@@ -26,6 +26,7 @@ const ProductDetail = () => {
         dispatch(fetchSuccess());
       })
       .catch((err) => console.log(err));
+    // eslint-disable-next-line
   }, []);
 
   return (
