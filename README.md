@@ -5,6 +5,7 @@
 - React
 - Redux-Toolkit
 - React-Redux
+- Redux-Persist
 - React Bootstrap
 
 ## Link
