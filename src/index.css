@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.product:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.64) !important;
+  transition: all .4s;
+}
+
+/* .card::after {
+  content: "Details";
+  font-size: 2rem;
+  position: absolute;
+  visibility: hidden;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all .4s;
+} */
+
+/* .card:hover::after {
+  content: "Details";
+  font-size: 2rem;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+} */
+
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(25%, 25%);
+  width: 20px;
+  height: 20px;
+
+}
